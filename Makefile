@@ -4,7 +4,7 @@ fermat: Fermat.c
 	gcc -o Fermat Fermat.c -lgmp
 	./Fermat
 
-MR: Miller_Rabin.c
+miller: Miller_Rabin.c
 	gcc -o Miller Miller_Rabin.c -lgmp
 
 clean :

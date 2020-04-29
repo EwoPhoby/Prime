@@ -11,5 +11,5 @@ $ make fermat
 Compilez et executez le programme avec :
 
 ```
-$ make MR
+$ make miller
 ```
