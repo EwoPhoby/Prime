@@ -3,7 +3,7 @@
 Compilez et executez le programme avec :
 
 ```
-make fermat
+$ make fermat
 ```
 
 ## MILLER-RABIN
@@ -11,5 +11,5 @@ make fermat
 Compilez et executez le programme avec :
 
 ```
-make MR
+$ make MR
 ```
