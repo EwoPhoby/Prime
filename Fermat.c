@@ -5,17 +5,6 @@
 #include <string.h>
 #include <unistd.h>
 
-void flex(){
-	for (int i = 0; i < 3; i++)	{
-		fflush (stdout);
-		printf (".");
-		fflush ( stdout);
-		sleep (1);
-	}
-    printf ("\n");
-}
-
-
 
 int Fermat(mpz_t n, mpz_t k)
 {
@@ -112,7 +101,7 @@ int Fermat(mpz_t n, mpz_t k)
 int main()
 {
 	mpz_t n,k;
-	
+
 	int prime;
 
 	mpz_init(n);
