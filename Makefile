@@ -6,6 +6,7 @@ fermat: Fermat.c
 
 miller: Miller_Rabin.c
 	gcc -o Miller Miller_Rabin.c -lgmp
+	./Miller
 
 clean :
 	rm $(EXEC_NAME) 
