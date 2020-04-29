@@ -14,9 +14,6 @@ miller: Miller_Rabin.c
 	./Miller
 	rm Miller
 
-clean :
-	rm $(EXEC_NAME) 
-
 git:
 	git add .
 	git commit -a --allow-empty-message -m ''
