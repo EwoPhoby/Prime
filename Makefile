@@ -1,11 +1,11 @@
-EXEC_NAME=Fermat MR
+EXEC_NAME=Fermat Miller
 
 fermat: Fermat.c
 	gcc -o Fermat Fermat.c -lgmp
 	./Fermat
 
 MR: Miller_Rabin.c
-	gcc -o MR Miller_Rabin.c -lgmp
+	gcc -o Miller Miller_Rabin.c -lgmp
 
 clean :
 	rm $(EXEC_NAME) 
