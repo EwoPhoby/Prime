@@ -7,10 +7,12 @@ all:
 fermat: Fermat.c
 	gcc -o Fermat Fermat.c -lgmp
 	./Fermat
+	rm Fermat
 
 miller: Miller_Rabin.c
 	gcc -o Miller Miller_Rabin.c -lgmp
 	./Miller
+	rm Miller
 
 clean :
 	rm $(EXEC_NAME) 
