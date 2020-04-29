@@ -172,11 +172,11 @@ int main()
 			retour = Miller_Rabin(n,k);		
 			if (retour == 1)
 			{
-				printf("Le nombre est premier \n");
+				printf("*******************Le nombre est premier******************* \n");
 			}
 			else
 			{
-				printf("Le nombre est composé \n");
+				printf("*******************Le nombre est composé******************* \n");
 			}
 		}	
 	mpz_clear(n);	

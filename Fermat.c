@@ -122,8 +122,8 @@ int main()
 			
 			prime=Fermat(n,k);
 			
-			if (prime==1)gmp_printf("%Zd est premier \n",n);
-			else gmp_printf("%Zd est composé \n",n);
+			if (prime==1)gmp_printf("*******************%Zd est premier******************* \n",n);
+			else gmp_printf("*******************%Zd est composé******************* \n",n);
 			
 		}	
 
