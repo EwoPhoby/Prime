@@ -1,5 +1,9 @@
 EXEC_NAME=Fermat Miller
 
+all:
+	make fermat
+	make miller
+
 fermat: Fermat.c
 	gcc -o Fermat Fermat.c -lgmp
 	./Fermat
